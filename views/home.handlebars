@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <a class="navbar-brand" href="/">Article Scraper</a>
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="nav navbar-nav navbar-right">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/saved">Saved Articles</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link scrape-new">Update with New Articles</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container float-left">
+  <h1>
+    <span id="today"></span>
+  </h1>
+  <img src="assets/images/BerlinerLogo.svg" id="logo" alt="Berliner Morgenpost">
+  <h4>save article to add notes, or click title to read it</h4>
+</div>
+
+<div class="container-fluid article-container">
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p>Berliner Morgenpost Mongo Scraper</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+<script src="/assets/javascript/utils.js"></script>
+<script src="/assets/javascript/index.js"></script>
