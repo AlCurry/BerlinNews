@@ -1,7 +1,7 @@
 # BerlinNews
-article scraper / node js / mongo db / data from Berliner Morgenpost
+## article scraper / node js / mongo db / data from Berliner Morgenpost
 
-## GWU Full Stack Web program - homework 15 - Node JS, Express, MongoDB 
+GWU Full Stack Web program - re-visited homework 15 - Node JS, Express, MongoDB 
 
 ### deployed at morgenpost.herokuapp.com
 
